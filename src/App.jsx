@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import './App.css';
-import GridCss from './Proyectos/GridCss';
-import GripLineas from './Proyectos/GripLineas';
 import Instagram from './Proyectos/Instagram';
 import Menu from './Proyectos/Menu';
 import HeaderPerfil from './Proyectos/HeaderPerfil';
