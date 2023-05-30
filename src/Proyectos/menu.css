@@ -1,0 +1,43 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px; /* Ancho deseado del menú */
+    height: 100vh; /* Alto deseado del menú */
+    padding: 20px; /* Espaciado interno del menú */
+  }
+  
+  .menu__Content{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .menu img {
+    width: 80%; /* Ajusta el tamaño de la imagen al 100% del ancho del menú */
+    margin-bottom: 20px; /* Espacio inferior de la imagen */
+  }
+  
+  .menu__Content div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Espacio inferior de cada elemento del menú */
+    color: #333; /* Color de texto del menú */
+    padding: 0.5em;
+    cursor: pointer;
+    font-size: 1.05em;
+  }
+
+  .menu__Content div:hover{
+    background-color: rgb(80, 76, 76, 20%);
+  }
+
+
+  
+  .menu i {
+    margin-right: 10px; /* Espacio derecho del icono */
+  }
+  
+.bx{
+    font-size: 1.6em;
+}

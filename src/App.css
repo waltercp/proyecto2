@@ -1,0 +1,14 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+}
+
+.contentInstagram{
+    margin-left: 200px; /* Ancho del menú */
+  }
+
+.contentHeader{
+    margin-top: 25px;
+    margin-left: 200px; /* Ancho del menú */
+  }
